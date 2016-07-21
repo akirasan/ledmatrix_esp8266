@@ -23,6 +23,6 @@ void loop() {
   delay(50);
   x=x+1;
   if (x == 400) {
-     ledMatrix.setNextText("akirasan"); 
+     ledMatrix.setNextText("MAX7219 + ESP8266"); 
   }
 }
